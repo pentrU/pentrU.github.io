@@ -1,0 +1,236 @@
+@font-face{
+    font-family: NeueHelvetica;
+    src: url(../fonts/HelveticaNeue.ttf);
+}
+
+@font-face{
+    font-family: NeueHelveticaLt;
+    src: url(./fonts/HelveticaNeueLt.ttf);
+}
+
+@font-face{
+    font-family: NeueHelveticaMedium;
+    src: url(../fonts/HelveticaNeueMedium.ttf);
+}
+
+@font-face{
+    font-family: NeueHelveticaLight;
+    src: url(../fonts/HelveticaNeueLight.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F5F5F5;
+    font-family: NeueHelveticaMedium;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.front-page {
+    background-image: url("../images/Fundo4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 80%;
+    width: 80%;
+    padding: 10%;
+    overflow: hidden;
+    position: relative;
+}
+
+.front-page img{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.botoes-front-page{
+    margin: 100px 50px;
+    width: 800px;
+}
+
+.btn-front-page{
+    font-family: NeueHelveticaLight;
+    font-size: 24px;
+    background-color: #447254;
+    border: 2px solid;
+    color: #F5F5F5;
+    margin: 100px;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 23px;
+    border-color: #447254;
+    width: 250px;
+    height: 100px;
+}
+
+.apresentacao{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.texto-central{
+    font-family: NeueHelveticaLight; 
+    font-size: 24px;
+    width: auto;
+    height: auto;
+    padding: 10% 0;
+    margin: 10% 0;
+    font-style: initial;
+}
+
+.logotipo{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    text-align: left;
+    font-family: NeueHelvetica;
+    font-size: 18px;
+    font-weight: bold;
+    color: #202321;
+    background-image: inherit;
+}
+
+.topo{
+    background-color: #202321;
+    font-family: NeueHelveticaMedium;
+    color: #F5F5F5;
+    margin: 0px 0px;
+    padding:10px 20px;
+    font-size: 22px;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+
+.a-topo{
+    text-decoration: underline;
+    color: #F5F5F5;
+    text-align: right;
+    position: relative;
+}
+
+.nome{
+    text-decoration: none;
+    color: #F5F5F5;
+    text-align-last: left;
+    position: relative;
+}
+
+.div-topo{
+    margin: 0px 0px;
+    padding: 0px;
+    border: 0px;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.nav{
+    position: relative;
+}
+
+.projetos{
+    text-align: center;
+}
+
+.topo-sobre, .topo-projetos{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+.a-projetos{
+    background-color: #202321;
+    height: 100%;
+    width: 100%;
+    /* border: 100%; */
+    /* padding: 4.16%; */
+    margin: 0%;
+    color: #F5F5F5;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.a-projetos:hover{
+    color: #202321;
+    transition-property: color;
+    transition-duration: 1.5s;
+}
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+}
+
+.grid-item{
+    background-color: #202321;
+    padding: 25%;
+    border: 0.1px solid black;
+    margin: 0px;
+    font-size: 25px;
+    width: auto;
+    height: auto;
+}
+
+.grid-container-text{
+    font-size: 22px;
+    margin: auto;
+    text-align: justify;
+    display: grid;
+    font-family: inherit;
+}
+
+.grid-container-sobre{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 390px 390px;
+    grid-template-rows: 390px;
+    grid-gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre, .sobre-foto{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.fa-linkedin-in, .fa-github, .fa-instagram, .fa-envelope, .fa-mobile-alt{
+    font-size: 25px;
+    text-align: left;
+    /*font-family: inherit;*/
+}
+
+img{
+    border-radius: 50%;
+}
+
+#proj1, #proj2, #proj3, #proj4,
+#proj5, #proj6{
+    background-image: none;
+}
+
+p{
+    margin: auto;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
